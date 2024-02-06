@@ -1,0 +1,175 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif
+}
+
+#look {
+  color: #f5ae23;
+}
+
+/*header*/
+
+.header{
+  background-color: #484848;
+  padding: 45px;
+  margin: 0px;
+  border: 0px;
+  line-height: 120%;
+}
+
+.content{   
+  left: 40px;
+  top: 0px;
+  position: relative
+}
+.title1{
+  display:inline;
+  font-size: 40px;
+  margin: 0px;
+  padding: 00px;
+}
+.title2{
+  display:inline;
+  color:black;
+}
+/*underline between title and text*/
+hr { 
+  display: block;
+  margin-before: 0.5em;
+  margin-after: 0.5em;
+  margin-start: auto;
+  margin-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
+/*statement*/
+.subtitle1{
+  font-style: italic;
+  font-size: 18px;
+  color:rgb(228, 228, 228);
+  font-weight: normal;
+}
+
+/*info*/
+.info{
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+}
+
+.list{
+  list-style-position: inside;
+}
+
+/*biopic*/
+.biopic{
+  float: left;
+  width: 200px;
+  padding: 20px;
+}
+
+/*skills*/
+.subtitle2{
+  font-style: italic;
+  font-weight: bold;
+  color: #f5ae23;
+}
+.skills{
+  font-weight: bold;
+  color:rgb(255, 255, 255);
+  line-height: 10%    
+}
+
+/*work experience*/
+/*title*/
+.workfont{
+  background-color:#f3f3f3;
+  padding: 60px;
+}
+.workfont2{
+  padding: 60px;
+}
+
+
+
+.title3{
+  color: #999;
+  
+}
+
+.title4{
+  color: #999;
+  margin-left:60px;
+  
+}
+
+/*company, work title, education*/
+.jobprojectschool{
+  font-size: 100%;
+  color:rgb(0, 162, 255);
+  margin-left: -40px;
+}
+.period{
+  font-size: 100%;
+  font-style: italic;
+  color:grey;
+  display:inline;
+  margin-left: -40px;
+}
+.location{
+  margin-right:50px;
+  float: right;
+  font-size: 100%;
+  font-style: italic;
+  color:grey;
+}
+
+.task{
+  font-size: 100%;
+  color: #333;
+  margin-left: -40px;
+}
+
+.degree{
+  color:black;
+  font-style: normal;
+}
+
+.subject{
+  color:black;
+  font-style: italic;
+}
+
+
+/*map*/
+#mapDiv {
+  height: 300px;
+  width: 90%;
+  padding-bottom: 5%;
+  margin: auto;
+}
+
+
+/*footer*/
+.footer{
+  background-color:rgb(110, 110, 110);
+}
+.footertext{
+    text-align: center;
+    color: #999;
+    background-color: #f5ae23
+}
+
+.flex-box {
+  /* display: -webkit-flex; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  padding: 15px;
+}
+.flex-box a{
+  margin: 20px;
+}
